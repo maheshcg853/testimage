@@ -21,4 +21,3 @@ RUN wget -O libpostal.tar.gz "https://github.com/openvenues/libpostal/archive/v1
     && make install \
     && rm -rf /src
 RUN pip install postal
-RUN pip install -r requirements.txt
