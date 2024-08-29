@@ -9,4 +9,5 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
+      - sudo docker login --username=cmahesh762 --password=Qwerty@12345
       - docker build .
